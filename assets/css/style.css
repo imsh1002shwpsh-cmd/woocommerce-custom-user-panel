@@ -1,0 +1,60 @@
+/* WooCommerce Custom User Panel Frontend Styles */
+
+.wcup-login-register-wrapper {
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 20px;
+}
+
+.wcup-login-container {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 30px;
+	background: #fff;
+}
+
+.wcup-tabs {
+	display: flex;
+	gap: 10px;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.wcup-tab-btn {
+	padding: 10px 20px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-weight: 500;
+	color: #666;
+	border-bottom: 3px solid transparent;
+	margin-bottom: -2px;
+	transition: all 0.3s ease;
+}
+
+.wcup-tab-btn.active {
+	color: #000;
+	border-bottom-color: #0073aa;
+}
+
+.wcup-tab-btn:hover {
+	color: #0073aa;
+}
+
+.wcup-tab-content {
+	display: none;
+}
+
+.wcup-tab-content.active {
+	display: block;
+}
+
+/* Dashboard Styles */
+.wcup-dashboard-wrapper {
+	padding: 20px;
+}
+
+.wcup-dashboard-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}

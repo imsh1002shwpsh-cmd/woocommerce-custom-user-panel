@@ -1,0 +1,17 @@
+/* WooCommerce Custom User Panel Admin Styles */
+
+.wcup-admin-wrapper {
+	padding: 20px;
+}
+
+.wcup-card {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.wcup-card h2 {
+	margin-top: 0;
+}
